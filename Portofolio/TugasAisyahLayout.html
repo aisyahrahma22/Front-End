@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+    body {
+        padding: 50px
+    }
+
+    .grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+
+    .card1 {
+        border: 5px solid aqua;
+        background-color: aqua;
+        height: 100px; 
+        grid-row: auto / span 1;
+        display: grid;
+        gap: 0;
+        grid-template-rows: subgrid;
+        
+    }
+    
+    .card2 {
+        border: 5px solid royalblue;
+        background-color: royalblue;
+        height: 50px;
+        grid-row: auto / span 2;
+        display: grid;
+        gap: 0;
+        grid-template-rows: subgrid;
+        
+    }
+    .card3 {
+        border: 5px solid violet;
+        background-color: violet;
+        grid-row: auto / span 0;
+        display: grid;
+        gap: 0;
+        grid-template-rows: subgrid;
+        
+    }
+</style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="grid">
+        <div class="card1 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12" style="margin-left: 100px; padding: 100px 200px 0px 50px">
+      
+        </div>
+        <div class="card1 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12" style="margin-left: 80px; padding: 100px 200px 0px 50px">
+       
+        </div>
+        <div class="card1 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12" style="margin-left: 80px; padding: 100px 200px 0px 50px">
+        
+        </div>
+        <br><br>
+
+        <div class="card2 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12" style="margin-right: 150px; margin-left: -300px; padding: 100px 200px 0px 50px">
+      
+        </div>
+        <div class="card2 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12" style="margin-left: -100px; padding: 100px 200px 0px 50px">
+       
+        </div>
+        <br><br><br>
+       
+        <div class="card3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3" style="margin-left: 100px; padding: 100px 900px 0px 150px">
+        
+        </div>
+    </div>
+</div> 
+</body>
+</html>
+
+

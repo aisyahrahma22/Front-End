@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction Spesifictiy</title>
+    <link rel="stylesheet" type="text/css" href="Spesificity.css">
+</head>
+<body>
+    <h1>
+        Spesificity
+    </h1>
+    <p>
+        !Important > Inline Styling > Id > Class > Tag
+    </p>
+    <p>
+        10.000 > 1000 > 100 > 10 > 1
+    </p>
+
+    <h2 id="idPertama" class="classPertama">
+        Contoh Bobot 1 (Id Menang)
+    </h2>
+
+    <h2 id="idPertama" class="classPertama" style="color: springgreen;">
+        Contoh Bobot 2 (Inline Style Menang)
+    </h2>
+
+    <div class="wrapperPertama">
+        <div id="idPertama">
+            <h2 class="classChild">
+                Contoh Bobot 3
+            </h2>
+        </div>
+    </div>
+</body>
+</html>

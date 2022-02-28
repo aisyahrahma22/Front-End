@@ -1,0 +1,59 @@
+:root{
+    --colorPrimary: #000000;
+}
+
+body{
+    margin: 0px;
+    color: white;
+    font-family: 'Lato', sans-serif;;
+    background-color: var(--colorPrimary);
+}
+
+/* Section-1 : Jumbotron */
+.jumbotronContainer{
+    background-image: url('../Assets/Background.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 30px;
+}
+
+.jumbotronNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotronNavbarMenu{
+    border: 1px solid white;
+    padding: 10px 5px 10px 10px;
+    border-radius: 10px;
+}
+
+.jumbotronNavbarMenu:hover{
+    background-color: white;
+    color: royalblue;
+}
+
+.jumbotronWelcomeContainer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 170px;
+}
+
+/* Section-2 : Experience */
+.experienceListContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 30px 200px;
+}
+
+/* Section-3 : Portfolio */
+.portfolioListContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px 30px 200px;
+    border: 1px solid white;
+}

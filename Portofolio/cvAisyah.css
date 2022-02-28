@@ -1,0 +1,157 @@
+:root {
+    --colorPrimary:  #0b2443;
+}
+
+body {
+    margin: 0px;
+    color: rgb(233, 235, 241);
+    font-family: "Roboto Serif", sans-serif;
+    background-color: var(--colorPrimary);
+    margin: 0px;
+}
+
+.jumbotronContainer {
+    background-image: url("bg6.png");
+    height: 600px;
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    padding: 0px 30px;
+    
+}
+
+.jumbotronNavbarContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 550px;
+
+}
+
+.jumbotronNavbarMenu {
+    text-align: center;
+    padding: 10px 5px 10px 10px;
+    border-radius: 5px;
+    color: #D1D1D1;
+}
+
+.jumbotronNavbarMenu:hover{
+   background-color:rgb(104, 163, 201) ;
+   color:#0b2443;
+}
+
+.jumbotronWelcomeContainer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 400px;
+}
+
+.iconListContainer-01 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+    margin-right: 100px;
+    padding: 0px 200px 30px;
+}
+
+.containerNavbar {
+    display: flex;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-right: -150px;
+    padding: 6px;
+}
+
+.gambar {
+    display: block;
+    position: relative;
+    width: 339px;
+    height: 371px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    margin-right: -150px;
+    margin-top: -150px;
+}
+
+.experienceListContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 30px;
+}
+
+.portfolioListContainer-01 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 30px;
+}
+
+.box1 {
+    background-image: url(https://images.pexels.com/photos/5412200/pexels-photo-5412200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    background-image: url(https://images.pexels.com/photos/3585088/pexels-photo-3585088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background-image: url(https://images.pexels.com/photos/5673502/pexels-photo-5673502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.container-skill {
+    display: flex;
+    margin-bottom: -30px;
+    padding: 10px 0px 0px;
+}
+
+.container-skill-01 {
+    font-size: 15px;
+}
+
+.container-skill-02 {
+    visibility: inherit;
+    position: relative;
+    left: 210px;
+    justify-self: start;
+    align-self: start;
+    width: 450px;
+    height: 12px;
+    background-color: rgb(104, 163, 201);
+    --lnw:  12px;
+    --brd:  var(--color_18);
+    --alpha-brd:  1;
+    transform-origin: center 6px;
+    margin: 14px 0px 21px calc((100% - 980px) * 0.5);
+    grid-area: 4 / 1 / 5 / 2;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(104, 163, 201);
+    border-image: initial;
+}
+
+.contactListContainer {
+    display: flex;
+    background-image: url(bg4.png);
+    background-position: right;
+    justify-content: space-between;
+    padding: 0px 200px 30px;
+}
+
+.contact1ListContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 0px;
+}

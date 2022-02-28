@@ -1,0 +1,16 @@
+.box-container-1{
+    display: flex;
+    border: 1px solid red;
+}
+
+.box-container-2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.box-size{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

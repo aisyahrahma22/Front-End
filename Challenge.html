@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <style>
+    :root {
+        --colorPrimary: darkgrey;
+    }
+
+    body {
+        margin: 0px;
+        color: rgb(233, 235, 241);
+        font-family: "Roboto Serif", sans-serif;
+        background-color: var(--colorPrimary);
+    }
+
+    .Container {
+        background-color: var(--colorPrimary);
+        height: 700px;
+        background-size: cover;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+        padding: 0px 30px;
+    }
+
+    .navbarContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .navbarMenu {
+        text-align: center;
+        padding: 10px 5px 10px 10px;
+        border-radius: 5px;
+        color: #D1D1D1;
+        margin-left: 1100px;
+        margin-bottom: 50px;
+    }
+
+    .welcomeContainer {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 500px;
+    }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="navbarContainer">
+            <div>
+                <span class="navbarMenu"> 
+                    <input type="button" value="Sign-In" style="background-color: orange; color: black; border: none; padding: 10px 20px; border-radius: 10px;">
+                </span>
+            </div>
+        </div>
+        <div class="welcomeContainer">
+            <h1 style="color: rgb(104, 103, 103); margin-top: 300px;">
+                Welcome,
+                to our official website.<br>
+                Summer sale untul 50% off!<br>
+            </h1>
+            <p style="color:rgb(104, 103, 103)">
+                *For selected items only
+            </p>
+        </div>
+
+        <input type="button" value="Summer Sale 50% Off" style="margin-right: 500px; background-color: green; color: white; border: none; padding: 10px 20px; border-radius: 10px;">
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerNavbar{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+}
+
+.containerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 653px;
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerSubMenu{
+    display: flex;
+    justify-content: space-between;
+    background-color: silver;
+}

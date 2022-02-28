@@ -1,0 +1,17 @@
+:root{
+    --primaryColor: #1C658C;
+    --secondaryColor: #F76E11; 
+}
+
+h5{
+    color: var(--primaryColor);
+}
+
+#p-with-pseudo{
+    background-color: var(--secondaryColor);
+    transition: 500ms;
+}
+
+#p-with-pseudo:hover{
+    background-color: var(--primaryColor);
+}

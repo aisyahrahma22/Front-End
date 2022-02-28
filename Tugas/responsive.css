@@ -1,0 +1,89 @@
+.container{
+     display: grid;
+     height: 100vh;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 0.3fr 1.5fr 1.2fr 0.1fr;
+     grid-template-areas: 
+     "navbar navbar navbar"
+     "navigation contents contents"
+     "navigation article-01 article-02"
+     "footer footer footer";
+     text-align: center;
+   }
+
+   .navbar{
+     background: #3494db;
+     grid-area: navbar;
+     color: whitesmoke;
+     justify-content: center;
+   }
+
+   .contents{
+     background: #e94c3d;
+     grid-area: contents;
+     color: whitesmoke;
+     padding-top: 100px; 
+   }
+
+   .navigation{
+     background: #995fb3;
+     grid-area: navigation;
+     color: whitesmoke;
+     padding-top: 200px;
+   }
+
+   .article-01{
+     background: #24b282;
+     grid-area: article-01;
+     color: whitesmoke;
+     padding-top: 100px;
+  
+   }
+
+   .article-02{
+     background: #24b44c;
+     grid-area: article-02;
+     color: whitesmoke;
+     padding-top: 100px;
+   }
+
+   .footer{
+     background: #f1c414;
+     grid-area: footer;
+     color: whitesmoke;
+   }
+
+   @media only screen and (max-width: 850px){
+     .container{
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 0.2fr 1.5fr 1.2fr 1.2fr 0.1fr;
+       grid-template-areas: 
+       "navbar navbar"
+       "contents navigation"
+       "article-01 navigation"
+       "article-02 navigation"
+       "footer footer ";
+     }
+     .navigation{
+          padding-top: 500px;
+     }
+
+   }
+
+   @media only screen and (max-width: 400px){
+     .container{
+       grid-template-columns: 1fr 1 fr;
+       grid-template-rows: 0.3fr 0.5fr 1.2fr 1.2fr 0.2fr;
+       grid-template-areas: 
+       "navbar navbar"
+       "navigation navigation"
+       "contents contents"
+       "article-01 article-02"
+       "footer footer";
+     }
+     .navigation{
+          padding-bottom: 80px;
+          padding-top: 50px;
+     }
+    
+}

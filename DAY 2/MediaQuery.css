@@ -1,0 +1,29 @@
+/* Desktop */
+/* > 768px */
+.responsif-1{
+    color: black;
+}
+
+/* Tablet */
+/* > 600px && <= 768px */
+@media only screen and (max-width: 768px) {
+    .responsif-1{
+        color: salmon;
+    }
+
+    .classHidden{
+        display: none;
+    }
+}
+
+/* Mobile */
+/* <= 600px */
+@media only screen and (max-width: 600px) {
+    .responsif-1{
+        color: cornflowerblue;
+    }
+
+    .classHidden{
+        display: block;
+    }
+}

@@ -1,0 +1,19 @@
+#idPertama{
+    color: royalblue;
+}
+
+.classPertama{
+    color: salmon !important;
+}
+
+.wrapperPertama{
+    color: teal;
+}
+
+.wrapperPertama #idPertama {
+    color: red;
+}
+
+.wrapperPertama #idPertama .classChild{
+    color: yellow;
+}
